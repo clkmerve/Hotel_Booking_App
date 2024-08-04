@@ -1,0 +1,45 @@
+.search_bar {
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    box-shadow: rgb(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    width: max-content;
+    margin-bottom: 30px;
+  }
+  
+  .form_group span {
+    font-size: 1.8rem;
+    color: rgb(73, 145, 227);
+  }
+  
+  .form_group input, .date_picker_input {
+    border: none;
+    font-size: 0.9rem;
+    color: var(--blue);
+    font-weight: 500;
+  }
+  
+  .form_group input:focus, .date_picker_input:focus {
+    outline: none;
+  }
+  
+  .form_group h6 {
+    margin-bottom: 0;
+  }
+  
+  .form_group-fast {
+    border-right: 2px solid #ddd;
+  }
+  
+  .search_icon i {
+    font-size: 1.6rem;
+    padding: 0.5rem;
+    background: rgb(80, 159, 212);
+    color: #fff;
+    border-radius: 10px 5px 10px 5px;
+    cursor: pointer;
+  }
+  
+  .date_picker_input {
+    width: 100%;
+  }
+  

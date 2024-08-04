@@ -1,0 +1,46 @@
+.campaign-single {
+  background-image: url(../../img/single-campaign.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat; /* Tekrar etmesini engeller */
+  background-size: cover; /* Görüntüyü tam kapsayacak şekilde ayarlar */
+  padding: 150px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.campaign-single .campaign-wrapper {
+  color: rgb(12, 12, 12);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.campaign-single .campaign-wrapper h2 {
+  font-size: 25px;
+}
+
+.campaign-single .campaign-wrapper strong {
+  font-size: 55px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.campaign-single .campaign-wrapper span {
+  display: inline-block;
+  width: 50px;
+  height: 5px;
+  background-color: rgb(26, 24, 24);
+}
+
+.campaign-single .campaign-wrapper > a {
+  background-color: #f4f7fb;
+  margin-top: 60px;
+}
+
+.campaign-single .campaign-wrapper > a:hover {
+  background-color: #1367ef;
+  border-color: #1367ef;
+  color: #fff;
+}

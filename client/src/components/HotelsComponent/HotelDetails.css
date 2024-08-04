@@ -1,0 +1,88 @@
+/* .hotel-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hotel-details-container h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.hotel-details-container p {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.rooms-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.room-card {
+    flex: 1 1 calc(33.333% - 20px);
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.room-card:hover {
+    transform: scale(1.05);
+}
+
+.room-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.room-card p {
+    font-size: 0.9em;
+    margin-bottom: 8px;
+    color: #666;
+} */
+
+
+.single-topbar {
+    margin-top: 30px;
+  }
+
+  .single-content {
+    margin: 30px 0;
+  }
+
+  .single-content .site-main {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* responsive */
+
+  @media (max-width: 768px) {
+    .site-main {
+      flex-direction: column;
+    }
+    .site-main .product-gallery,
+    .site-main .product-info {
+      width: 100%;
+      padding: 0;
+    }
+
+    .site-main .product-info {
+      margin-top: 30px;
+    }
+
+    .site-main .values-list span {
+      padding: 6px !important;
+      display: inline-block;
+    }
+  }

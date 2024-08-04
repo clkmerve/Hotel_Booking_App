@@ -1,0 +1,34 @@
+.cities-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Kartlar arasındaki boşluk */
+  justify-content: center; /* Kartları ortalar */
+  padding: 20px;
+}
+
+.city-card {
+  width: calc(25% - 16px); /* 4 kartın yan yana gelmesi için %25 genişlikten boşluklar çıkarılıyor */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+
+.city-card:hover {
+  transform: scale(1.05);
+}
+
+.city-img {
+  width: 100%;
+  height: 200px; /* Sabit bir yükseklik belirleyin */
+    object-fit: cover; /* Resimleri kapsayacak şekilde ayarla, taşan kısımlar kırpılır */
+    object-position: center; /* Resimlerin ortalanmasını sağlar */
+}
+
+.city-name {
+  padding: 8px;
+  font-size: 1.2em;
+  font-weight: bold;
+}

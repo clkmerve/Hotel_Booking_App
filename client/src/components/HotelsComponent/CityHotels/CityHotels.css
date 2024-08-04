@@ -1,0 +1,97 @@
+/* .hotels-container {
+    display: flex;
+  flex-wrap: wrap;
+  gap: 16px; 
+  justify-content: center; 
+  padding: 20px;
+} */
+
+/* .hotel-card {
+    width: calc(25% - 16px);  4 kartın yan yana gelmesi için %25 genişlikten boşluklar çıkarılıyor 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s;
+} 
+
+.hotel-card:hover {
+    transform: scale(1.05);
+}*/
+
+/* .hotel-img {
+    width: 100%;
+  height: 200px;  Sabit bir yükseklik belirleyin 
+    object-fit: cover;  Resimleri kapsayacak şekilde ayarla, taşan kısımlar kırpılır 
+    object-position: center; 
+} 
+
+.hotel-details {
+    padding: 16px;
+}
+
+eski css
+*/.hotels-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.hotel-card {
+    position: relative;
+    width: 300px;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.hotel-card:hover {
+    transform: scale(1.05);
+}
+
+.hotel-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.hotel-details {
+    padding: 16px;
+    position: relative;
+}
+
+.hotel-details h3 {
+    margin-bottom: 8px;
+    font-size: 1.2em;
+}
+
+.hotel-details p {
+    margin-bottom: 8px;
+    color: #514f4f;
+}
+
+.favorite-icon {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-size: 1.5em;
+    color: #4d5cff;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.hotel-card:hover .favorite-icon {
+    opacity: 1;
+    visibility: visible;
+}
+
+.favorite-icon:hover {
+    color: #4d5cff;
+}

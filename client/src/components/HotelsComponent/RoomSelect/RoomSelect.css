@@ -1,0 +1,31 @@
+/* components/HotelsComponent/RoomSelect/RoomSelect.css */
+
+.rooms-page {
+  padding: 20px;
+}
+
+.rooms-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.room-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.room-card.selected {
+  background-color: #d1e7dd;
+}
+
+.room-image img {
+  width: 100%;
+  height: auto;
+}
+
+.room-details {
+  margin-top: 10px;
+}

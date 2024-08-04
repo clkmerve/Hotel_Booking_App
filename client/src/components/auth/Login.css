@@ -1,0 +1,58 @@
+.full-height {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/public/img/image.png'); /* Resmin yolunu buraya girin */
+    background-size: cover; /* Resmin arka plana sığacak şekilde boyutlandırılması */
+    background-position: center;   }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .login-form-container {
+    width: 100%;
+    max-width: 400px; /* Formun maksimum genişliği */
+    padding: 20px;
+    background-color: #f0f0f0; /* Form arka plan rengi */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .form {
+    width: 100%;
+  }
+  
+  .input {
+    width: 100%;
+  }
+  
+  .login-button {
+    width: 100%;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .password-link {
+    font-size: 14px;
+  }
+  .register-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

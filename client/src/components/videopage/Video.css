@@ -1,0 +1,32 @@
+.hero_content h1{
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: rgb(38, 37, 38);
+}
+
+.hero_content h1 .highlight{
+    color: blue;
+}
+.hero_content p{
+    font-size: 1.1rem;
+    color: rgb(32, 33, 33);
+    line-height: 2rem;
+}
+
+.hero_img-box img, .hero_img-box video{
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    border: 1px solid var(blue);
+    object-fit: cover;
+
+}
+.hero_concent{
+    padding-top:3.5rem ;
+   
+}
+.hero_img-box{
+    padding-top: 2rem;
+}
